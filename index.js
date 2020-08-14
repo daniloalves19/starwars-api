@@ -4,7 +4,6 @@ const axios = require('axios');
 //const baseURL = 'https://swapi.co/api/';
 const baseURL = 'https://swapi.dev/api/';
 
-
 app.use((req, res, next) => {
   res.header('Content-Type', 'application/json; charset=utf-8');
   res.header('Access-Control-Allow-Origin', '*');
