@@ -3,7 +3,7 @@ kind: Service
 metadata:
   name: starwars-api-service
 spec:
-  type: ClusterIP
+  type: NodePort
   selector:
     app: starwars-api
   ports:
