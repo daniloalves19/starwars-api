@@ -41,7 +41,7 @@ const getFilmImageUrl = (id) => {
       next(error);
     }
   });
-  
+ 
   app.get('/films/:id', async (req, res, next) => {
     try {
       const filmId = req.params.id;
